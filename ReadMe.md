@@ -1,7 +1,7 @@
 # Grafana Dashboards for DarkRift
 This repo contains [Grafana](https://grafana.com/) dashboards designed to help you get monitor your [DarkRift](https://darkriftnetworking.com) servers.
 
-![Screenshot of Grafana Dashboard](./screenshot.png)
+![Screenshot of Grafana Dashboard](./images/screenshot.png)
 
 ## Setup
 **You will need DarkRift Pro in order to view metrics.**
@@ -26,4 +26,4 @@ This repo contains [Grafana](https://grafana.com/) dashboards designed to help y
 7. Configure a new data source in Grafana by going to `Configuration` (on the left bar) -> `Data Sources` -> `Add Data Source` -> `Prometheus`. Set the URL to be `http://localhost:9090` and leave the name as `Prometheus`.
 8. Copy the JSON in [darkrift.json](./darkrift.json) and in Grafana go to `Create` (on the left bar) -> `Import`. Paste your JSON there and click `Load`.
 
-![Gif of the Grafana Dashboard](./demo.gif)
+![Gif of the Grafana Dashboard](./images/demo.gif)
